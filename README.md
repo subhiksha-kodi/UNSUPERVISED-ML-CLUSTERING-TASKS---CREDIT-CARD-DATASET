@@ -1,7 +1,7 @@
-# 📊 Credit Card Customer Clustering – Streamlit App
+# 📊 Credit Card Customer Clustering – Streamlit & Gradio Apps
 
 ## 🚀 Overview
-This project is a **Streamlit web application** for interactive customer segmentation using clustering techniques.  
+This project provides **interactive customer segmentation** using clustering techniques.  
 It allows you to input customer credit card attributes and predict the cluster assignment using different clustering algorithms:  
 
 - **KMeans**  
@@ -12,9 +12,15 @@ The dataset is based on credit card usage behavior and financial transactions.
 
 ---
 
-## 🌐 Live Demo
-You can try the app here:  
+## 🌐 Live Demos
+
+- **Streamlit (Local)**  
+Run locally using Streamlit:  
 👉 [Credit Card Clustering Streamlit App](https://unsupervised-ml-clustering-tasks---credit-card-dataset-vstnmbq.streamlit.app/)
+
+- **Gradio (Hugging Face Space)**  
+Interact online instantly:  
+👉 [Credit Card Clustering Gradio App](https://huggingface.co/spaces/subhiksha-kodi/unsupervised-ml-clustering-tasks)
 
 ---
 
@@ -51,8 +57,7 @@ The dataset (`clustered_data.csv`) contains the following columns:
 
 ---
 
-## 🛠️ Installation
-
+## 🛠️ Installation (Streamlit Local)
 Clone the repo and install dependencies:
 
 ```bash
@@ -71,8 +76,7 @@ scikit-learn
 
 ---
 
-## ▶️ Usage
-
+## ▶️ Usage (Streamlit Local)
 Run the Streamlit app:
 
 ```bash
@@ -80,6 +84,26 @@ streamlit run app.py
 ```
 
 Then open the provided local URL in your browser (default: http://localhost:8501).
+
+---
+
+## 🛠️ Deployment (Gradio Hugging Face Space)
+1. Ensure your folder contains:  
+   - `app.py` or `gradio_app.py`  
+   - `clustered_data.csv`  
+   - `requirements.txt`  
+   - `README.md`  
+
+2. Push your folder to your Hugging Face Space:
+
+```bash
+git add .
+git commit -m "Deploy Gradio app"
+git push https://subhiksha-kodi:<YOUR_TOKEN>@huggingface.co/spaces/subhiksha-kodi/unsupervised-ml-clustering-tasks
+```
+
+3. Open your Gradio app online:  
+[Credit Card Clustering Gradio App](https://huggingface.co/spaces/subhiksha-kodi/unsupervised-ml-clustering-tasks)
 
 ---
 
@@ -99,4 +123,5 @@ Then open the provided local URL in your browser (default: http://localhost:8501
 ---
 
 ## 👩‍💻 Author
-Developed by **Subhiksha** ✨  
+Developed by **Subhiksha** ✨
+
