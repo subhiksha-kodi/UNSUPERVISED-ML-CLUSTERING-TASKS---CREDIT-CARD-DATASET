@@ -18,10 +18,6 @@ The dataset is based on credit card usage behavior and financial transactions.
 Run locally using Streamlit:  
 👉 [Credit Card Clustering Streamlit App](https://unsupervised-ml-clustering-tasks---credit-card-dataset-vstnmbq.streamlit.app/)
 
-- **Gradio (Hugging Face Space)**  
-Interact online instantly:  
-👉 [Credit Card Clustering Gradio App](https://huggingface.co/spaces/subhiksha-kodi/unsupervised-ml-clustering-tasks)
-
 ---
 
 ## 📂 Dataset
