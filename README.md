@@ -12,6 +12,12 @@ The dataset is based on credit card usage behavior and financial transactions.
 
 ---
 
+## 🌐 Live Demo
+You can try the app here:  
+👉 [Credit Card Clustering Streamlit App](https://unsupervised-ml-clustering-tasks---credit-card-dataset-vstnmbq.streamlit.app/)
+
+---
+
 ## 📂 Dataset
 The dataset (`clustered_data.csv`) contains the following columns:
 
@@ -92,5 +98,5 @@ Then open the provided local URL in your browser (default: http://localhost:8501
 
 ---
 
-## 👨‍💻 Author
-Developed by **[Your Name]** ✨  
+## 👩‍💻 Author
+Developed by **Subhiksha** ✨  
